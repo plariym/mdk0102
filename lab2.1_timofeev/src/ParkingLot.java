@@ -2,6 +2,7 @@ public class ParkingLot {
     private int totalSpaces;
     private int occupiedSpaces;
     private double hourlyRate;
+    public static int totalCarsParked=0;
 
     public ParkingLot(int totalSpaces, double hourlyRate) {
         this.totalSpaces = totalSpaces;
@@ -12,6 +13,7 @@ public class ParkingLot {
     public boolean parkCar() {
         if (occupiedSpaces < totalSpaces) {
             occupiedSpaces++;
+            totalCarsParked++;
             return true;
         }
         return false;
