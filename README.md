@@ -34,7 +34,7 @@
 ---
 
 ## 📎 Ссылки
-- [Код тестов](lab2.1_timofeev\src\test\EmailMassageTest.java)
-- [Основной класс](lab2.1_timofeev\src\EmailMassage.java)
+- [Код тестов](lab2.1_timofeev/src/test/EmailMassageTest.java)
+- [Основной класс](lab2.1_timofeev/src/EmailMassage.java)
 
 *Дата: 11.03.2026*
